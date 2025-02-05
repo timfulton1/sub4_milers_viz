@@ -112,9 +112,6 @@ running_count_uni_min5 <- running_count_uni_temp %>%
   left_join(facet_colors)
 
 
-
-
-
 ## Create line plot ------------------------------------------------------------
 
 # Add fonts
@@ -268,7 +265,6 @@ sub_4_facet_plot <- sub4_milers_plot / plot_spacer() / (custom_facet_plot("Orego
                                           custom_caption_plot("Oregon") +
                                           plot_layout(ncol = 6, axes = "collect")) + 
   plot_layout(heights = c(7, 0.3, 7))
-
 
 
 # save facet plot
